@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="clear1"
+        android:id="@+id/clear1"/>
+    <item android:title="TETRIS"
+        android:id="@+id/tetris"/>
+    <item android:title="SNAKE"
+        android:id="@+id/snake"/>
+    <item android:title="TANK"
+        android:id="@+id/tank"/>
+</menu>

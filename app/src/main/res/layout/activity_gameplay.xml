@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dae8ec"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/btntrai"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="trái"
+        android:layout_marginLeft="70dp"
+        android:rotation="90"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/btnxuong"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="xuống"
+        android:layout_marginTop="80dp"
+        android:rotation="90"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/btnlen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="lên"
+        android:rotation="90"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="140dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/btnphai"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="phải"
+        android:rotation="90"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/btnok"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ok"
+        android:rotation="90"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp" />
+</RelativeLayout>
