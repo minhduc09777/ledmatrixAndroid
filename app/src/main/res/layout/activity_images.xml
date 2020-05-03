@@ -50,11 +50,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
         android:text="Ảnh"
         android:textColor="#00ff11"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerAnh" />
 
@@ -78,7 +79,7 @@
         android:layout_height="45dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -89,7 +90,7 @@
         android:layout_height="57dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="104dp"
         android:showText="true"
         android:textOff="OFF"
         android:textOn="On"
@@ -97,29 +98,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch3"
-        android:layout_width="55dp"
-        android:layout_height="48dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:showText="true"
-        android:textOff="Off"
-        android:textOn="Gamma"
-        app:layout_constraintEnd_toStartOf="@+id/switch4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/spinnerAnhdong"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerAnh" />
-
-    <Switch
         android:id="@+id/switch4"
         android:layout_width="75dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="76dp"
         android:showText="true"
         android:textOff="OFF"
         android:textOn="On"
@@ -132,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerAnhdong" />
 
@@ -144,11 +128,11 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="60dp"
         android:background="#00ffcc"
         android:text="clear"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/spinnervt"
         app:layout_constraintTop_toBottomOf="@+id/switch4" />
 

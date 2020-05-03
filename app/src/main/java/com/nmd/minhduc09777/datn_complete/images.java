@@ -31,7 +31,7 @@ public class images extends AppCompatActivity {
     String b=" ";
     Button _clearall;
     String vthtanh;
-    Switch okgamma,swanh,swanhdong;
+    Switch swanh,swanhdong;
     boolean gamma=false;
     int vtanh=1,vtanhdong=1;
     WifiManager w;
@@ -53,7 +53,7 @@ public class images extends AppCompatActivity {
         for(int i=b.length();i<64;i++){
             b=b+" ";
         }
-        okgamma=(Switch) findViewById(R.id.switch3);
+      //  okgamma=(Switch) findViewById(R.id.switch3);
         swanhdong=(Switch) findViewById(R.id.switch2);
         swanh=(Switch) findViewById(R.id.switch4);
         _clearall = (Button) findViewById(R.id.clearall);
@@ -125,7 +125,7 @@ public class images extends AppCompatActivity {
 
             }
         });
-        okgamma.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+       /* okgamma.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 gamma=isChecked;
@@ -146,7 +146,7 @@ public class images extends AppCompatActivity {
                 }
 
             }
-        });
+        });*/
         swanh.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
