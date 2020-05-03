@@ -83,19 +83,15 @@ public class images extends AppCompatActivity {
         _spinnervt.setAdapter(arrayAdaptervt);
 
         final ArrayList<String> arrayanh = new ArrayList<String>();
-        arrayanh.add("Logo Khoa");
-        arrayanh.add("Logo Truong");
-        arrayanh.add("sư phạm kĩ thuật");
-        arrayanh.add("mario");
-        arrayanh.add("anime image");
-        arrayanh.add("galaxy");
-        arrayanh.add("tình anh em");
-        arrayanh.add("earth 1");
-        arrayanh.add("earth 2");
-        arrayanh.add("earth 3");
-        arrayanh.add("kì quan thiên nhiên");
-        arrayanh.add("nothern");
-        arrayanh.add("sơn đoong");
+        arrayanh.add("Ảnh 1");
+        arrayanh.add("Ảnh 2");
+        arrayanh.add("Ảnh 3");
+        arrayanh.add("Ảnh 4");
+        arrayanh.add("Ảnh 5");
+        arrayanh.add("Ảnh 6");
+        arrayanh.add("Ảnh 7");
+        arrayanh.add("Ảnh 8");
+        arrayanh.add("Ảnh 9");
 
         final ArrayAdapter arrayAdapter1 = new ArrayAdapter(this,R.layout.support_simple_spinner_dropdown_item,arrayanh);
         arrayAdapter1.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
